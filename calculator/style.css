@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+
+#heading{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+#size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*main*/
+#calculator{
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 450px;
+    height: 420px;
+  background-color: black;
+}
+#display{
+    display: inline-block;
+    position: relative;
+    margin-left: 0px;
+    width: 100%;
+    background-color: gray;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+#displaytext{
+    margin-top: 20px;
+    height: 70px;
+    width: 350px;
+    border-radius: 20pxz;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#btn{
+height: 70px;
+width: 100px;
+font-size: 20px;
+cursor: pointer;
+opacity: .80;
+border-radius: 20px;
+background-color: white;
+}
+#btn:hover{
+    height: 70px;
+    width: 100px;
+    font-size: 20px;
+    opacity: .90;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+}
+#btn:active{
+    height: 70px;
+    width: 100px;
+    font-size: 20px;
+    opacity: .80;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+}
+#button{
+    padding-top: 20px;
+}
+#row1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#row2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#row3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#row4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    font-size: 20px;
+}
