@@ -1,0 +1,110 @@
+/*utils*/
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    opacity: .75;
+}
+#a2{
+    color: rgb(50, 115, 168);
+    font-size: 15px;
+    font-family: monospace;
+}
+#a2:hover{
+    color: red;
+}
+/*main*/
+/*section1*/
+#box{
+    width: 103px;
+}
+#box2{
+    width: 165px;
+}
+#photofix1{
+    margin-left: 15px;
+}
+#photofix2{
+    margin-left: 20px;
+}
+#textfix2{
+    margin-left: 10px;
+    margin-top: 32px;
+}
+#textfix3{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#itemtext{
+    color: black;
+    font-size: 13px;
+    font-family: monospace;
+}
+#item1{
+    height: 116px;
+    width: 160px;
+}
+#item2{
+    height: 116px;
+    width: 155px;
+}
+#item3{
+        height: 265px;
+        width: 320px;
+}
+#item4{
+    height: 150px;
+    width: 310px;
+}
+#item5{
+        height: 70px;
+        width: 100px;
+}
+#item{
+    background-color: white;
+    height: 380px;
+    width: 350px;
+    cursor: pointer;
+}
+#heading{
+        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 10px;
+}
+#heading2{
+        text-align: center;
+        padding-top: 10px;
+}
+#bottomheading{
+        color: white;
+        margin-bottom: 5px;
+}
+#bottomheight{
+        height: 7px;
+}
+#bottomtag{
+    opacity: .75;
+}
+#bottomtag:hover{
+    text-decoration: underline;
+}
+#end{
+    background-color: #0f1111;
+}
+#endtext{
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+#bottomtag2:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+#endheight{
+    height: 5px;
+}

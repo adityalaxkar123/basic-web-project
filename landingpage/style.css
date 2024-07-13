@@ -1,0 +1,237 @@
+/*header*/
+/*navbar1*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+}
+
+#navbar1{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 370px;
+    align-items:center;
+}
+#leftheader{
+    display: flex;
+}
+#logo1 {
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#logo1:hover {
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-left: 10px;
+    opacity: .75;
+    cursor: pointer;
+}
+
+#logo2 {
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#logo2:hover {
+    margin-top: 0px;
+    opacity: .75;
+    cursor: pointer;
+}
+
+#text {
+    padding-right: 50px;
+    color: white;
+}
+
+#search {
+    width: 600px;
+    height: 30px;
+}
+
+#btn1 {
+    margin-right: -5px;
+    cursor: pointer;
+    height: 33.5px;
+    background-color: rgb(214, 210, 203);
+}
+
+#btn1:hover {
+    margin-right: -5px;
+    cursor: pointer;
+    opacity: .75;
+}
+
+#btn2 {
+    background-image: url(/landingpage/magnifying-glass-solid.svg);
+    background-size: cover;
+    width: 30px;
+    height: 33.5px;
+    margin-left: -5px;
+    margin-right: 30px;
+    background-color: rgb(245, 171, 24);
+    cursor: pointer;
+}
+
+#btn2:hover {
+    background-image: url(/landingpage/magnifying-glass-solid.svg);
+    background-size:cover;
+    width: 30px;
+    height: 33.5px;
+    margin-left: -5px;
+    margin-right: 0px;
+    background-color: rgb(245, 171, 24);
+    cursor: pointer;
+    opacity: .75;
+}
+
+#btn2:active {
+    background-image: url(/landingpage/magnifying-glass-solid.svg);
+    background-size: cover;
+    width: 30px;
+    height: 33.5px;
+    margin-left: -5px;
+    margin-right: 0px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+#logo3 {
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#logo3:hover {
+    margin-top: 0px;
+    cursor: pointer;
+    opacity: .75;
+}
+
+/*navbar2*/
+#navbar2{
+    background-color: #232F3E;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+#logo4{
+    margin-left: 10px;
+}
+
+#logo5{
+    margin-right: 30px;
+}
+
+#ul2{
+    display: flex;
+    align-items: center;
+    width: 600px;
+}
+
+/*main*/
+/*section1*/
+main{
+    background-color: rgb(242, 245, 245);
+    height: 2120px;
+}
+
+#mainbanner{
+    height: 600px;
+    width: 100%;
+}
+
+#first{
+    margin-top: 10px;
+}
+
+#itemdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading{
+    text-align: center;
+}
+
+#itembtn{
+ background-color: blue;
+ color: white;   
+}
+
+#itembtn:hover{
+    background-color: blue;
+    color: white;
+    opacity: .75;   
+}
+   #itembtn:active{
+    background-color: red;
+    color: white;   
+}
+#upperitem{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+#loweritem{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-left: 10px;
+    }
+#threeitem{
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+/*section 2*/
+#itemdiv2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#second{
+    margin-top: 20px;
+}
+/*section 3*/
+#third{
+    background-color: white;
+    margin-top: 20px;
+    height: 270px;
+}
+#banner{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bannertext{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+/*section 4*/
+#fourth{
+    margin-top: 20px;
+}
+footer{
+    background-color: #232F3E;
+}
+#bottom{
+    padding-top: 30px;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+}
