@@ -1,0 +1,60 @@
+/*header*/
+#ul1{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style: none;
+    width: 600px;
+    margin-left: 800px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color:blue;
+    opacity: .75;
+    text-decoration: underline;
+}
+#resume{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius:4px; 
+}
+#photo{
+    border-radius: 50%;
+    height: 200px;
+}
+#skilllogo{
+    height: 300px;
+    width: 500px;
+    margin-left: 250px;
+}
+#skillphoto{
+    height: 70px;
+}
+#projectlogo{
+    height: 300px;
+    margin-right: 150px;
+}
+#projectphoto{
+    height: 120px;
+}
+#achivementlogo{
+    height: 300px;
+    margin-left: 100px ;
+}
+#achivementphoto{
+    height: 200px;
+}
+#contactlogo{
+    height: 300px;
+    margin-left: 300px;
+}
+#talkslogo{
+    height: 300px;
+    margin-right: 300px;
+    margin-left: 100px;
+}

@@ -1,0 +1,594 @@
+@media (min-width:300px) and (max-width:500px) {
+    #topheader{
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    #ul1{
+        margin-left: 0px;
+        width: 250px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 10px;
+    }
+    #photo{
+        margin-left: 0px;
+    }
+    #intro{
+        display: flex;
+        min-height: 300px;   
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+    #heading{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+    }
+    #text{
+        font-family: "Quicksand", sans-serif;
+        font-size: 7px;
+    }
+    #Skill{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 450px;
+    }
+    #skilllogo{
+        height: 300px;
+        width: 300px;  
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    #project{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    #projectlogo{
+        height: 300px;
+        width: 300px;
+        margin-right: 0px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    #projectleft{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-left: 0px;
+    }
+    #projectphoto{
+        height: 120px;
+        width: 200px;
+        margin-left: 100px;
+    }
+    #text{
+        text-align: center;
+    }
+    #achivement{
+        display: flex;
+       flex-direction:column;
+        height: 450px;
+        align-items: center;
+    }
+    #achivementlogo{
+        height: 300px;
+        width: 300px;
+        margin-top: 150px;
+        margin-left: 0px ;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 450px;
+        margin-top: 140px;
+    }
+    #contactleft{
+        margin-left: 0px;
+        
+        }
+    #contactlogo{
+            height: 300px;
+            width: 300px;
+            margin-left: 0px;
+                   
+        }
+        #Talks{
+            display: flex;
+            flex-direction: column;
+            height: 450px;
+            align-items: center;
+
+            }
+        #talkslogo{
+                height: 300px;
+                width: 300px;
+                margin: 0px;
+                margin-bottom: 5px;
+            }
+}
+
+/*500px-650px*/
+@media (min-width:500px) and (max-width:650px) {
+    #topheader{
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    #ul1{
+        margin-left: 0px;
+        width: 300px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+    }
+    #photo{
+        margin-left: 0px;
+    }
+    #intro{
+        display: flex;
+        min-height: 300px;   
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+    #heading{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        text-align: center;
+    }
+    #text{
+        font-family: "Quicksand", sans-serif;
+        font-size: 10px;
+    }
+    #Skill{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 450px;
+    }
+    #skilllogo{
+        height: 300px;
+        width: 400px;  
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    #project{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    #projectlogo{
+        height: 300px;
+        width: 400px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    #projectleft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        margin-left: 0px;
+    }
+    #projectphoto{
+        height: 120px;
+        width: 250px;
+    }
+    #text{
+        text-align: center;
+    }
+    #achivement{
+        display: flex;
+       flex-direction:column;
+        height: 600px;
+        align-items: center;
+        margin-top: 50px;
+    }
+    #achivementlogo{
+        height: 300px;
+        width: 400px;
+        margin-left: 0px ;
+        margin-bottom: 10px;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 450px;
+        margin-top: 140px;
+    }
+    #contactleft{
+        margin-left: 0px;
+        
+        }
+    #contactlogo{
+            height: 300px;
+            width: 400px;
+            margin-left: 0px;
+                   
+        }
+        #Talks{
+            display: flex;
+            flex-direction: column;
+            height: 450px;
+            align-items: center;
+            margin-top: 50px;
+
+            }
+        #talkslogo{
+                height: 300px;
+                width: 400px;
+                margin: 0px;
+                margin-bottom: 5px;
+            }
+}
+/*650-800*/
+@media (min-width:650px) and (max-width:800px) {
+    #topheader{
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    #ul1{
+        margin-left: 0px;
+        width: 600px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+    }
+    #photo{
+        margin-left: 0px;
+    }
+    #intro{
+        display: flex;
+        height: 500px;   
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    #heading{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+    }
+    #text{
+        font-family: "Quicksand", sans-serif;
+        font-size: 14px;
+    }
+    #Skill{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 650px;
+        margin-bottom: 30px;
+    }
+    #skilllogo{
+        height: 350px;
+        width: 550px;  
+        margin-left: 0px;
+    }
+    #project{
+        display: flex;
+        flex-direction: column;
+        height: 1050px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    #projectlogo{
+        height: 350px;
+        width: 550px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    #projectleft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        margin-left: 0px;
+    }
+    #projectphoto{
+        height: 200px;
+        width: 350px;
+        margin: 10px;
+    }
+    #text{
+        text-align: center;
+    }
+    #achivement{
+        display: flex;
+       flex-direction:column;
+       align-items: center;
+        height: 650px;
+        align-items: center;
+        margin-top: 50px;
+    }
+    #achivementlogo{
+        height: 350px;
+        width: 550px;
+        margin-left: 0px ;
+        margin-bottom: 10px;
+    }
+    #achivementphoto{
+        height: 300px;
+        margin-left: -60px;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+        margin-top: 140px;
+    }
+    #contactleft{
+        margin-left: 0px;
+        
+        }
+    #contactlogo{
+            height: 350px;
+            width: 550px;
+            margin-left: 0px;
+                   
+        }
+        #Talks{
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+            align-items: center;
+            margin-top: 50px;
+
+            }
+        #talkslogo{
+                height: 350px;
+                width: 550px;
+                margin: 0px;
+                margin-bottom: 15px;
+            }
+}
+/*800-1000*/
+@media (min-width:800px) and (max-width:1000px) {
+    #topheader{
+        height: 70px;
+        display: flex;
+    }
+    #ul1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+        width: 801px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+    }
+    #photo{
+        margin-left: 0px;
+    }
+    #intro{
+        display: flex;
+        justify-content:space-around;
+        height: 400px;   
+        align-items: center;
+    }
+    #heading{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+    }
+    #text{
+        font-family: "Quicksand", sans-serif;
+        font-size: 12px;
+    }
+    #Skill{
+        margin-top: 10px;
+        display: flex;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    #skilllogo{
+        height: 320px;
+        width: 500px;  
+        margin-left: 0px;
+    }
+    #project{
+        display: flex;
+        height: 400px;
+        margin-top: 30px;
+    }
+    #projectlogo{
+        height: 320px;
+        width: 500px;
+    }
+    #projectleft{
+        display: flex;
+        width: 400px;
+        justify-content: space-around;
+        margin-left: 0px;
+    }
+    #projectphoto{
+        height: 100px;
+        width: 100px;
+    }
+    #text{
+        text-align: center;
+    }
+    #achivement{
+        display: flex;
+       justify-content: space-around;
+        height: 400px;
+        margin-top: 50px;
+    }
+    #achivementlogo{
+        height: 350px;
+        width: 450px;
+        margin-left: 0px ;
+        margin-bottom: 10px;
+    }
+    #achivementphoto{
+        height: 200px;
+    }
+    #contact{
+        display: flex;
+        justify-content: space-around;
+        height: 400px;
+        margin-top: 20px;
+    }
+    #contactleft{
+        margin-left: 0px;
+        }
+    #contactlogo{
+            height: 300px;
+            width: 350px;
+            margin-left: 0px;          
+        }
+    #Talks{
+            display: flex;
+            justify-content: space-around;
+            height: 400px;
+            margin-top: 50px;
+
+            }
+    #talkslogo{
+                height: 300px;
+                width: 350px;
+                margin: 0px;
+                margin-bottom: 15px;
+            }
+}
+/*1000-1300*/
+@media (min-width:1000px) and (max-width:1300px) {
+    #topheader{
+        height: 70px;
+        display: flex;
+    }
+    #ul1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+        width: 1000px;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+    }
+    #photo{
+        margin-left: 0px;
+    }
+    #intro{
+        display: flex;
+        justify-content:space-around;
+        height: 400px;   
+        align-items: center;
+    }
+    #heading{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+    }
+    #text{
+        font-family: "Quicksand", sans-serif;
+        font-size: 15px;
+    }
+    #Skill{
+        margin-top: 10px;
+        display: flex;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    #skilllogo{
+        height: 320px;
+        width: 550px;  
+        margin-left: 0px;
+    }
+    #project{
+        display: flex;
+        height: 400px;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    #projectlogo{
+        height: 320px;
+        width: 550px;
+        margin-right: 0px;
+    }
+    #projectleft{
+        display: flex;
+        width: 400px;
+        justify-content: space-around;
+        margin-left: 0px;
+    }
+    #projectphoto{
+        height: 100px;
+        width: 140px;
+    }
+    #text{
+        text-align: center;
+    }
+    #achivement{
+        display: flex;
+       justify-content: space-around;
+        height: 400px;
+        margin-top: 50px;
+    }
+    #achivementlogo{
+        height: 350px;
+        width: 450px;
+        margin-left: 0px ;
+        margin-bottom: 10px;
+    }
+    #achivementphoto{
+        height: 200px;
+    }
+    #contact{
+        display: flex;
+        justify-content: space-around;
+        height: 400px;
+        margin-top: 20px;
+    }
+    #contactleft{
+        margin-left: 0px;
+        }
+    #contactlogo{
+            height: 300px;
+            width: 450px;
+            margin-left: 0px;          
+        }
+    #Talks{
+            display: flex;
+            justify-content: space-around;
+            height: 400px;
+            margin-top: 50px;
+
+            }
+    #talkslogo{
+                height: 300px;
+                width: 450px;
+                margin: 0px;
+                margin-bottom: 15px;
+            }
+}

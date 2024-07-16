@@ -1,0 +1,107 @@
+/*header*/
+/*navbartop*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#topheader{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    margin: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+#logo:hover{
+    border-radius: 50%;
+    border: 1px solid blue;
+    width: 50px;
+}
+/*main*/
+/*section introduction*/
+#heading{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+#photo{
+    margin-left: 300px;
+}
+#intro{
+    display: flex;
+    min-height: 300px;   
+    justify-content: center;
+    justify-content: start;
+}
+#introleft{
+    text-align: center;
+}
+#text{
+    font-family: "Quicksand", sans-serif;
+}
+/*skill section*/
+#Skill{
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+}
+/*project section*/
+#project{
+    display: flex;
+    height: 450px;
+    justify-content: space-between;
+    
+}
+#projectleft{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+#readmore{
+    border: none;
+    background-color: white;
+}
+#readmore:hover{
+    border: none;
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+}
+/*achivement section*/
+#achivement{
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+}
+#achivementright{
+ width: 300px;   
+}
+/*contact section*/
+#contact{
+    display: flex;
+    height: 450px;
+}
+#contactleft{
+margin-left: 100px;
+}
+/*talks section*/
+#Talks{
+display: flex;
+height: 450px;
+}
+/*footer*/
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#end{
+    padding-top: 45px;
+}
